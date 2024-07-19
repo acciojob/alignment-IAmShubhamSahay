@@ -1,16 +1,120 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>HTML Assignment 3</title>
+    <style>
+        .heading {
+            text-align: center;
+        }
+        .middle {
+            border: 1px solid black;
+            border-spacing: 1px;
+            padding: 1px;
+        }
+        .center {
+            text-align: center;
+        }
+        .right {
+            text-align: right;
+        }
+        .green {
+            background-color: green;
+        }
+        .blue {
+            background-color: blue;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <h1 class="heading">HTML Assignment #3</h1>
 
+    <table id="table-1" class="middle">
+        <tr>
+            <td id="t11">t11</td>
+            <td id="t12">t12</td>
+            <td id="t13" class="right">t13</td>
+        </tr>
+        <tr class="center">
+            <td>left</td>
+            <td>centre</td>
+            <td>right</td>
+        </tr>
+        <tr>
+            <td>left</td>
+            <td>centre</td>
+            <td class="right">right</td>
+        </tr>
+    </table>
+
+    <table id="table-2" class="middle">
+        <tr>
+            <td id="t21" colspan="6">t21</td>
+        </tr>
+        <tr>
+            <td>t22</td>
+            <td>t23</td>
+            <td>t24</td>
+            <td>t25</td>
+            <td>t26</td>
+            <td>t27</td>
+        </tr>
+        <tr>
+            <td>t28</td>
+            <td>t29</td>
+            <td>t30</td>
+            <td>t31</td>
+            <td>t32</td>
+            <td>t33</td>
+        </tr>
+        <tr>
+            <td>t34</td>
+            <td>t35</td>
+            <td>t36</td>
+            <td>t37</td>
+            <td>t38</td>
+            <td>t39</td>
+        </tr>
+        <tr>
+            <td>t40</td>
+            <td>t41</td>
+            <td>t42</td>
+            <td>t43</td>
+            <td>t44</td>
+            <td>t45</td>
+        </tr>
+        <tr>
+            <td>t46</td>
+            <td>t47</td>
+            <td>t48</td>
+            <td>t49</td>
+            <td>t50</td>
+            <td>t51</td>
+        </tr>
+    </table>
+
+    <table id="table-3" class="middle">
+        <tr class="green">
+            <td id="t-image" colspan="6"><img src="https://picsum.photos/200/300" alt="Sample Image"></td>
+        </tr>
+        <tr>
+            <td>t52</td>
+            <td>t53</td>
+            <td>t54</td>
+            <td>t55</td>
+            <td>t56</td>
+            <td>t57</td>
+        </tr>
+        <tr class="blue">
+            <td>t58</td>
+            <td>t59</td>
+            <td>t60</td>
+            <td>t61</td>
+            <td>t62</td>
+            <td>t63</td>
+        </tr>
+    </table>
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
-
 </html>
